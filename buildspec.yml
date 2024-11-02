@@ -2,4 +2,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=weikertsecurity_javaplayground -Dsonar.organization=weikertsecurity -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=233c86453d16663ba45f25dcec6471532f0ef799
+      - mvn verify sonar:sonar -Dsonar.projectKey=javaplayground -Dsonar.organization=weikertsecurity -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=233c86453d16663ba45f25dcec6471532f0ef799
