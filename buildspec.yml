@@ -2,7 +2,7 @@ version: 0.2
 env:
     secrets-manager:
       TOKEN: sonarCloud:tokenForSonar
-      SNYK_TOKEN: snyk:snyk
+      SNYK_TOKEN: SCA-Snyk:tokenForSnyk
 phases:
   build:
     commands:
